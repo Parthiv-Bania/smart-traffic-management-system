@@ -1,5 +1,8 @@
 # Smart Traffic Management System (STMS)
 
+## 🚀 Live Demo
+Experience the live operational dashboard here: [Smart Traffic Management System](https://smart-traffic-management-system-jiwl.onrender.com)
+
 A web control room for monitoring traffic at several intersections. Operators watch signal timing and queues, log accidents, road closures and maintenance, and follow emergency vehicles on a live map. Analysts compare fixed-time and adaptive signal control on identical simulated traffic.
 
 The signal simulation is a deterministic model for demonstration and training. The app does not connect to real traffic signals, cameras or sensors.
