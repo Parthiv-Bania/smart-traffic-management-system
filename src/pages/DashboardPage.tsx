@@ -9,6 +9,7 @@ import { useIntersections } from '@/hooks/useIntersections';
 import { fetchSimulationRuns } from '@/lib/simulationRuns';
 import { formatDateTime, formatNumber, formatPercent, formatSeconds } from '@/lib/format';
 import type { SimulationRunRow } from '@/types/database';
+import { AboutDeveloper } from '@/components/profile/AboutDeveloper';
 
 const RUN_SAMPLE_SIZE = 50;
 const CHART_RUN_COUNT = 10;
@@ -148,6 +149,7 @@ export function DashboardPage() {
           </ul>
         )}
       </Panel>
+      <AboutDeveloper />
     </div>
   );
 }
