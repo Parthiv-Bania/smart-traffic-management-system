@@ -21,6 +21,7 @@ import { useAuth } from '@/contexts/AuthContext';
 import { useSystemSettings } from '@/hooks/useSystemSettings';
 import { CAN_MANAGE_USERS, CAN_VIEW_ANALYTICS, ROLE_LABELS } from '@/lib/permissions';
 import type { UserRole } from '@/types/database';
+import { AboutDeveloper } from '../profile/AboutDeveloper';
 
 interface NavItem {
   to: string;
@@ -143,6 +144,7 @@ export function AppLayout() {
           <Suspense fallback={<LoadingState label="Loading page" />}>
             <Outlet />
           </Suspense>
+          <AboutDeveloper />
         </main>
       </div>
     </div>
